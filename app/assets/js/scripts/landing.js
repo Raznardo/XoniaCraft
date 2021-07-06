@@ -124,13 +124,13 @@ document.getElementById('avatarOverlay').onclick = (e) => {
 
 // Bind selected account
 function updateSelectedAccount(authUser){
-    let username = 'No Account Selected'
+    let username = 'Aucun compte sélectionné'
     if(authUser != null){
         if(authUser.displayName != null){
             username = authUser.displayName
         }
         if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('https://crafatar.com/renders/body/${authUser.uuid}')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('https://warzone-factory.com/test-api/skin_api/lib/skins.php?user=${authUser.username}&mode=head')`
         }
     }
     user_text.innerHTML = username
