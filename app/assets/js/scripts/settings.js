@@ -444,7 +444,7 @@ const settingsCurrentAccounts = document.getElementById('settingsCurrentAccounts
         const acc = authAccounts[val]
         authAccountStr += `<div class="settingsAuthAccount" uuid="${acc.uuid}">
             <div class="settingsAuthAccountLeft">
-                <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="https://warzone-factory.com/test-api/skin_api/lib/skins.php?user=${acc.displayName}&mode=skin">
+                <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="https://xoniacraft.fun/api/skin_api/lib/skins.php?user=${acc.displayName}&mode=skin">
             </div>
             <div class="settingsAuthAccountRight">
                 <div class="settingsAuthAccountDetails">

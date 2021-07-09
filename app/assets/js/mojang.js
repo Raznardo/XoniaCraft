@@ -51,6 +51,12 @@ const statuses = [
         status: 'grey',
         name: 'Mojang Accounts Website',
         essential: false
+    },
+    {
+        service: 'warzone-factory.com',
+        status: 'grey',
+        name: 'Warzone Factory',
+        essential: false
     }
 ]
 

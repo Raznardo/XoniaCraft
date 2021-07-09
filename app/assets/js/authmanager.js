@@ -5,7 +5,7 @@ const bcrypt = require('bcrypt');
 
 exports.addAccount = async function(username, password){
 
-    let base_url = "https://warzone-factory.com/test-api/"; //Edit with your auth api url
+    let base_url = "https://xoniacraft.fun/api/"; //Edit with your auth api url
 
 
     if (username.includes('@')) {
